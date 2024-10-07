@@ -1,0 +1,134 @@
+
+body,h1,h2,p{
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+.main-div{
+    background-color: #f0f2f5 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+#logo{
+    color: #1877F2;
+    font-size: 55px;
+    padding: 10px 0px;
+} 
+.signup-form{
+    background-color: white;
+    width: 430px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.heading{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+h2{
+    padding-bottom: 7px;
+}
+
+.input-file{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+input,select{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+   
+}
+
+.box1{
+    display: flex;
+    width: 48%;
+}
+
+ .box2{
+    display: flex;
+    width: 100%;
+ }
+ label{
+    font-size: 12px; 
+    color: #606770;
+    padding-bottom: 10px;
+ }
+
+.dob{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.box3{
+    display: flex;
+    width: 32%;
+}
+
+.radio-btn{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.radio-label{
+    padding-bottom: 0px;
+    font-size: 15px;
+}
+
+.radio-input{
+    margin: 0px;  
+    width: auto ;
+}
+ 
+small{
+    color: #777;
+    font-size: 12px;
+    padding: 10px 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.signup-btn{
+    border: none;
+    color: white;
+    background-color: #00a400;
+    padding: 10px 55px;
+    border-radius: 8px;
+    font-weight: 700;
+ 
+}
+
+.account-link{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+}
