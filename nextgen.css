@@ -53,6 +53,10 @@ input,select{
    
 }
 
+.option{
+    color: #606770;
+}
+
 .box1{
     display: flex;
     width: 48%;
